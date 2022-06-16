@@ -9,7 +9,8 @@
     "lint": "next lint",
     "storybook": "start-storybook -p 6006 -s ./public",
     "build-storybook": "build-storybook -s public",
-    "hygen": "hygen component new"
+    "hygen": "hygen component new",
+    "chromatic": "npx chromatic --project-token=CHROMATIC_PROJECT_TOKEN"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.2",
@@ -39,6 +40,7 @@
     "@types/react-dom": "18.0.5",
     "@types/styled-components": "^5.1.25",
     "babel-loader": "^8.2.5",
+    "chromatic": "^6.5.6",
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
     "eslint-plugin-storybook": "^0.5.12",
